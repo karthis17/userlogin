@@ -1,0 +1,16 @@
+.post-title{
+    font-size: 22pt;
+}
+
+.post-preview{
+    margin-top: 30px;
+}
+
+.post-preview a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.post-preview a:hover{
+    color: cornflowerblue;
+}

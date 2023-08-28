@@ -1,0 +1,17 @@
+.my-form{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.main-container{
+    width: 95vw;
+    height: 80vh;
+    padding: 15% 30% 15% 30%;
+    display: flex;
+    align-items: center;
+}
