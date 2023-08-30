@@ -8,9 +8,16 @@
     width: 100%;
 }
 
-/* .main-container{
-    width: 80vw;
-    height: 95vh;
+.check{
     display: flex;
-    align-items: center;
-} */
+    justify-content: space-between;
+}
+
+.check a{
+    color: black;
+    text-decoration: none;
+}
+
+.check a:hover{
+    color: blue;
+}
