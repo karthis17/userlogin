@@ -10,11 +10,11 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class LoginComponentComponent {
   title = 'Login';
-  validationForm!: FormGroup;
+  form: FormGroup;
   submitted = false;
 
   constructor(private titleService: Title) {
-    this.validationForm = new FormGroup({
+    this.form = new FormGroup({
       email: new FormControl('admin@gmail.com', [Validators.required, Validators.email]),
       password: new FormControl('adminroot', [Validators.required, Validators.minLength(5)])
     });
@@ -22,7 +22,7 @@ export class LoginComponentComponent {
 
   submit() {
     this.submitted=true;
-    console.log(this.validationForm.get('email')?.value);
+    console.log(this.form.get('email')?.value);
   }
 
   // get email(): AbstractControl {

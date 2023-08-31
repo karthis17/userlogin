@@ -9,7 +9,7 @@ import { LoginComponentComponent } from './login-component/login-component.compo
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatFormFieldModule} from '@angular/material/form-field';
-// import {MatInputModule} from '@angular/material/input';
+import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -30,7 +30,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     MatToolbarModule,
     MatFormFieldModule,
-    // MatInputModule,
+    MatInputModule,
     MatCardModule,
     ReactiveFormsModule
   ],
